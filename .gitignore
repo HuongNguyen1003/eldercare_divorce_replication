@@ -1,5 +1,13 @@
-# Exclude HRS data
-01_Data/
+# Exclude all HRS data and files in 01_Data
+/01_Data/0*
+
+# Allow data documentation
+!/01_Data/README.md
+
+
 
 # Exclude logs and temporary files
 *.log
+*.stswp
+
+
