@@ -1,0 +1,15 @@
+clear all
+// set up the globals
+	global projdir "/wsu/home/he/he78/he7843/02_eldercare_divorce/postdoc_rep/"
+	global raw_data "${projdir}01_Data/01_raw/"
+	global processed_data "${projdir}01_Data/02_processed/"
+	global final_data "${projdir}01_Data/03_final/"
+	
+	
+	global tables "${projdir}03_Results/01_tables/"
+	global graphs "${projdir}03_Results/02_graphs/"
+	global logs "${projdir}03_Result/03_logs/"
+	
+	global MQ_start_wave 2004
+	global MQ_end_wave 2020
+// I add this line to test code

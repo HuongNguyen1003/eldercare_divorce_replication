@@ -1,0 +1,5 @@
+# Exclude HRS data
+01_Data/
+
+# Exclude logs and temporary files
+*.log
